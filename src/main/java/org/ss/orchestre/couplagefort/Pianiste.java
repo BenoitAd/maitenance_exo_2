@@ -1,10 +1,11 @@
 package org.ss.orchestre.couplagefort;
-public class Pianiste {
+public class Pianiste extends Musicien {
 	
 	private Piano piano;
 	private String morceau;
 	
 	public Pianiste( String morceau) {
+		super();
 		this.piano = new Piano();
 		this.morceau = morceau;
 	}

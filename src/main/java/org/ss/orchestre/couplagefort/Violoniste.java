@@ -1,5 +1,5 @@
 package org.ss.orchestre.couplagefort;
-public class Violoniste {
+public class Violoniste extends Musicien {
 	private Violon violon;
 	private String morceau;
 	

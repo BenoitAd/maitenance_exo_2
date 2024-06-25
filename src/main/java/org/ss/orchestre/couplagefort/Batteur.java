@@ -1,6 +1,6 @@
 package org.ss.orchestre.couplagefort;
 
-public class Batteur {
+public class Batteur extends Musicien {
 
     private Batterie batterie;
     private String morceau;
