@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Orchestre {
-	private List<Object> listeMusiciens;
+	private List<Musiscien> listeMusiciens;
 	
 	public Orchestre() {
 		listeMusiciens = new ArrayList<>();
 	}
 	
-	public void ajout(Object musicien) {
+	public void ajout(Musiscien musicien) {
 		listeMusiciens.add(musicien);
 	}
 
